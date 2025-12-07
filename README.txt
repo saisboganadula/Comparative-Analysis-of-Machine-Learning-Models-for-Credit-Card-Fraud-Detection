@@ -1,3 +1,29 @@
-		      # Credit Card Fraud Detection Model ComparisonThis README document provides detailed instructions for running the machine learning experiment coded in `ML3_FinalCode.ipynb`. The project is focused on comparing the performance of several classifier models on a credit card fraud detection dataset.## Developers- Sai Sukheshwar Boganadula- Bala Subramanyam Pavan Kumar Kasturi
-## Code DescriptionThe Jupyter Notebook (`ML3_FinalCode.ipynb`) contains a comprehensive pipeline designed to compare the performance of Logistic Regression, Random Forest, Gradient Boosting, and LightGBM classifiers in detecting fraudulent credit card transactions. The notebook is structured to execute the following tasks:- Load the credit card fraud detection dataset.- Preprocess the data, including scaling and handling class imbalance.- Initialize and train the mentioned classifiers.- Utilize stratified cross-validation for a fair evaluation of each model.- Compare the classifiers based on accuracy, AUC-ROC, AUPRC, and F1-score.- Statistical analysis to discern significant differences in model performance.## Running the CodeFollow these steps to execute the analysis:1. **Environment Setup**: Ensure Python 3.8 is installed along with Jupyter and the required libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, and `imbalanced-learn`. Install missing libraries using pip or conda.   
-```bash   pip install numpy pandas scikit-learn matplotlib imbalanced-learn jupyter
+		      # Credit Card Fraud Detection Model Comparison
+
+This README document provides detailed instructions for running the machine learning experiment coded in `ML3_FinalCode.ipynb`. The project is focused on comparing the performance of several classifier models on a credit card fraud detection dataset.
+
+## Developer
+
+- Sai Sukheshwar Boganadula
+
+## Dataset
+https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud
+
+## Code Description
+
+The Jupyter Notebook (`ML3_FinalCode.ipynb`) contains a comprehensive pipeline designed to compare the performance of Logistic Regression, Random Forest, Gradient Boosting, and LightGBM classifiers in detecting fraudulent credit card transactions. The notebook is structured to execute the following tasks:
+- Load the credit card fraud detection dataset.
+- Preprocess the data, including scaling and handling class imbalance.
+- Initialize and train the mentioned classifiers.
+- Utilize stratified cross-validation for a fair evaluation of each model.
+- Compare the classifiers based on accuracy, AUC-ROC, AUPRC, and F1-score.
+- Statistical analysis to discern significant differences in model performance.
+
+## Running the Code
+
+Follow these steps to execute the analysis:
+
+1. **Environment Setup**: Ensure Python 3.8 is installed along with Jupyter and the required libraries: `numpy`, `pandas`, `scikit-learn`, `matplotlib`, and `imbalanced-learn`. Install missing libraries using pip or conda.
+   
+```bash
+   pip install numpy pandas scikit-learn matplotlib imbalanced-learn jupyter
